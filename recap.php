@@ -31,9 +31,9 @@ session_start();
                 echo "<tr>",
                         "<td>".$index."</td>",
                         "<td>".$product['name']."</td>",
-                        "<td>".$product['price']."</td>",
+                        "<td>".number_format($product['price'], 2, ",", "&nbsp;"). "&nbsp;€</td>",
                         "<td>".$product['qtt']."</td>",
-                        "<td>".$product['total']."</td>",
+                        "<td>".number_format($product['total'], 2, ",", "&nbsp;")."&nbsp;€</td>",
                      "</tr>";  
             }   
             echo "</tbody",
