@@ -28,7 +28,13 @@ session_start();
                      "</thead>",
                      "<tbody>";
             foreach($_SESSION['products'] as $index => $product){
-
+                echo "<tr>",
+                        "<td>".$index."</td>",
+                        "<td>".$product['name']."</td>",
+                        "<td>".$product['price']."</td>",
+                        "<td>".$product['qtt']."</td>",
+                        "<td>".$product['total']."</td>",
+                     "</tr>";  
             }   
             echo "</tbody",
                  "</table>";            
