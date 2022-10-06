@@ -21,7 +21,7 @@ session_start();
                          "<tr>",
                             "<th>#</th>",
                             "<th>Nom</th>",
-                            "<th>Prix</>",,
+                            "<th>Prix</>",
                             "<th>Quantité</th>",
                             "<th>Total</th>",
                          "</tr>",
