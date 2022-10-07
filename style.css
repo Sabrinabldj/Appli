@@ -10,3 +10,19 @@ body {
     min-height: 100vh;
 }
 
+#container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+

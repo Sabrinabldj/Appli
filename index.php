@@ -14,8 +14,9 @@
     <title>Ajout Produit</title>
   </head>
   <body>
-    
+  <div id="container">
     <h1>Ajouter un produit</h1>
+    
     <form action="traitement.php" method="post">
       <p>
         <label>
@@ -39,7 +40,7 @@
         <input type="submit" name="submit" value="Ajouter le produit">
       </p>
     </form> 
-
+  </div>
     
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
   </body>
