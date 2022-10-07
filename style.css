@@ -24,5 +24,11 @@ h1{
     align-items: center;
     margin-bottom: 5%;
     font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+}
+
+p, label{
+    color: rgb(106, 85, 205);
 }
 
