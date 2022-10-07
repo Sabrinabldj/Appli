@@ -30,5 +30,9 @@ h1{
 
 p, label{
     color: rgb(106, 85, 205);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
