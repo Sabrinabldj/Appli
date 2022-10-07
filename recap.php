@@ -13,7 +13,7 @@ session_start();
 <body>
     <?php
         if(!isset($_SESSION['product']) || empty($_SESSION['products'])){
-            echo "<p>Aucun produit en session...</p>";
+            echo "<p>Aucun produit en session...</p>"; 
         } 
         else{  
             echo "<table>",
