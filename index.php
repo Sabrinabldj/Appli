@@ -31,7 +31,7 @@
       <p>
         <input type="submit" name="submit" value="Ajouter le produit">
       </p>
-    </form>
+    </form> 
 
     
 </body>

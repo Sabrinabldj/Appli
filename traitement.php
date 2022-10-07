@@ -16,7 +16,7 @@
             ];
 
             $_SESSION['products'][] = $product;
-        }
+        } 
 
     }
 

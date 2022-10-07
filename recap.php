@@ -15,7 +15,7 @@ session_start();
         if(!isset($_SESSION['product']) || empty($_SESSION['products'])){
             echo "<p>Aucun produit en session...</p>";
         } 
-        else{ 
+        else{  
             echo "<table>",
                      "<thead>",
                          "<tr>",
