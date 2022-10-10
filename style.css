@@ -83,6 +83,35 @@ p, label{
 #totaux, td{
     border: 1px solid rgb(23, 22, 22);
     padding-left: 5px;
+} 
+
+
+/* bouton "vider panier" */
+.suppression a:link{
+  background-color: #287b446a;
+  color: white;
+  padding: 25px 50px;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
+.suppression a:hover, a:active {
+    background-color: rgba(10, 114, 34, 0.807);
+} 
 
+/* bouton "recap" */
+.recapitulatif a:link{
+    background-color: #c9bf33ed;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .recapitulatif a:hover, a:active {
+      background-color: rgba(10, 114, 34, 0.807);
+  } 

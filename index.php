@@ -39,7 +39,9 @@
       <p>
         <input type="submit" name="submit" value="Ajouter le produit">
       </p>
-      <a href="/appli/recap.php" target=_blank>Recap</a>
+      <div class="recapitulatif">
+        <a href="/appli/recap.php" target=_blank>Recap</a>
+      </div>  
     </form> 
   </div>
 
