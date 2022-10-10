@@ -9,6 +9,7 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Récapitulatif des produits</title>
 </head>
 <body>
@@ -19,7 +20,7 @@ session_start();
         else{  
             echo "<table id='table'>",
                      "<thead>",
-                         "<tr id='tableau'>",
+                         "<tr class='tableau'>",
                             "<th>#</th>",
                             "<th>Nom</th>",
                             "<th>Prix<th/>",
@@ -32,7 +33,7 @@ session_start();
             foreach($_SESSION['products'] as $index => $product){
                 echo "<tr class='interieur'>",
                         "<td class='number'>".$index."</td>",
-                        "<td class='appeler'>".$product['name']."</td>",
+                        "<td class='nommer'>".$product['name']."</td>",
                         "<td class='cout'>".number_format($product['price'], 2, ",", "&nbsp;"). "&nbsp;€</td>",
                         "<td class='quantite'>".$product['qtt']."</td>",
                         "<td class='total'>".number_format($product['total'], 2, ",", "&nbsp;")."&nbsp;€</td>",

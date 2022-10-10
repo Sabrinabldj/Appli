@@ -10,6 +10,8 @@ body {
     min-height: 100vh;
 }
 
+/* mise en forme du formulaire */
+
 #container{
     display: flex; 
     justify-content: center; 
@@ -36,8 +38,28 @@ p, label{
     align-items: center;
 }
 
-. table, th, td{
-    border: 1px solid white;
+/* ---délimitation des colonnes du tableau--- */
+
+#table,th,td{
+  
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.tableau, th {
+    /* min-height: 100vh; */
+    border: 1px solid rgb(23, 22, 22);
     border-collapse: collapse;
 }
 
+.interieur, td{
+    border: 1px solid rgb(23, 22, 22);
+    border-collapse: collapse;
+}
+
+.number{
+    border: 1px solid rgb(23, 22, 22);
+    border-collapse: collapse;
+
+}
