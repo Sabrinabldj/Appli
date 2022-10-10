@@ -6,9 +6,9 @@
     font-family: "Poppins";
 }
 
-body {
-    min-height: 100vh;
-}
+body { 
+     min-height: 100vh; 
+} 
 
 /* mise en forme du formulaire */
 
@@ -40,20 +40,20 @@ p, label{
 
 /* ---délimitation des colonnes du tableau--- */
 
+
+
 #table,th,td{
-  
-    
+    /* min-height: 100vh;  */
     align-items: center;
     justify-content: center;
 }
 
 .tableau, th {
-    /* min-height: 100vh; */
     border: 1px solid rgb(23, 22, 22);
     border-collapse: collapse;
 }
 
-.interieur, td{
+.interieur{
     border: 1px solid rgb(23, 22, 22);
     border-collapse: collapse;
 }
@@ -63,3 +63,26 @@ p, label{
     border-collapse: collapse;
 
 }
+
+.nommer{
+    border: 1px solid rgb(23, 22, 22);
+}
+
+.cout{
+    border: 1px solid rgb(23, 22, 22);
+}
+
+.quantite{
+    border: 1px solid rgb(23, 22, 22);
+}
+
+.total{
+    border: 1px solid rgb(23, 22, 22);
+}
+
+#totaux, td{
+    border: 1px solid rgb(23, 22, 22);
+    padding-left: 5px;
+}
+
+

@@ -49,7 +49,10 @@ session_start();
         } ?>
 
         <!--ajout de l'icone pour supprimer tout le panier-->
-        <a href= "traitement.php?action=deleteAll"><i class="fa fa-trash" aria-hidden="true"></i> Vider le panier</a>
+        <div class="suppression">
+          <a href= "traitement.php?action=deleteAll"><i class="fa fa-trash" aria-hidden="true"></i> Vider le panier</a>
+          <a href="index2.php" onclick="<?php session_unset(); ?>">
+        </div>
         
 </body>
 </html>
