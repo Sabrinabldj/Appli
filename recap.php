@@ -45,6 +45,8 @@ session_start();
             "</tbody>",
                  "</table>";            
         }
+
+        <a href= "/appli/traitement.php"<?php $delete_all ?>  <i class="fa fa-trash" aria-hidden="true"></i></a>
         
     ?>
 </body>
