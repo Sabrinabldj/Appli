@@ -17,7 +17,7 @@ session_start();
             echo "<p>Aucun produit en session...</p>"; 
         } 
         else{  
-            echo "<table>",
+            echo "<table class="table">",
                      "<thead>",
                          "<tr>",
                             "<th>#</th>",
