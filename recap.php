@@ -17,9 +17,9 @@ session_start();
             echo "<p>Aucun produit en session...</p>"; 
         } 
         else{  
-            echo "<table class="table">",
+            echo "<table id='table'>",
                      "<thead>",
-                         "<tr>",
+                         "<tr id='tableau'>",
                             "<th>#</th>",
                             "<th>Nom</th>",
                             "<th>Prix<th/>",
@@ -30,12 +30,12 @@ session_start();
                      "<tbody>";
             $totalGeneral = 0;         
             foreach($_SESSION['products'] as $index => $product){
-                echo "<tr>",
-                        "<td>".$index."</td>",
-                        "<td>".$product['name']."</td>",
-                        "<td>".number_format($product['price'], 2, ",", "&nbsp;"). "&nbsp;€</td>",
-                        "<td>".$product['qtt']."</td>",
-                        "<td>".number_format($product['total'], 2, ",", "&nbsp;")."&nbsp;€</td>",
+                echo "<tr class='interieur'>",
+                        "<td class='number'>".$index."</td>",
+                        "<td class='appeler'>".$product['name']."</td>",
+                        "<td class='cout'>".number_format($product['price'], 2, ",", "&nbsp;"). "&nbsp;€</td>",
+                        "<td class='quantite'>".$product['qtt']."</td>",
+                        "<td class='total'>".number_format($product['total'], 2, ",", "&nbsp;")."&nbsp;€</td>",
                      "</tr>"; 
                 $totalGeneral+=$product['total'];      
             }   
