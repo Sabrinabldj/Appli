@@ -22,4 +22,14 @@
 
     header("Location:index.php");
 
+    //fonction pour effacer tous les produits//
+    function delete_all(){
+        unset($_SESSION['products']);
+        print_r($_SESSION);
+        }
+        
+        if (isset($_GET['delete'])) {
+        
+            delete_all();
+        }    
     ?>

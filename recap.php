@@ -21,7 +21,7 @@ session_start();
                          "<tr>",
                             "<th>#</th>",
                             "<th>Nom</th>",
-                            "<th>Prix</>",
+                            "<th>Prix<th/>",
                             "<th>Quantité</th>",
                             "<th>Total</th>",
                          "</tr>",
@@ -40,11 +40,12 @@ session_start();
             }   
             echo "<tr>",
                      "<td colspan=4>Total général : </td>",
-                     "td><strong>".number_format($totalGeneral, 2, ",", "&nbsp;"). "&nbsp;€</strong></td>",
+                     "<td><strong>".number_format($totalGeneral, 2, ",", "&nbsp;"). "&nbsp;€</strong></td>",
                   "</tr>",   
             "</tbody>",
                  "</table>";            
         }
+        
     ?>
 </body>
 </html>
