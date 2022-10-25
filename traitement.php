@@ -16,6 +16,8 @@
             ];
 
             $_SESSION['products'][] = $product;
+
+            $_SESSION["message"] = "Produit enregistré avec succès !";
         } 
 
     }
