@@ -19,8 +19,11 @@
 
             $_SESSION["message"] = "Produit enregistré avec succès !";
         } 
-
+        else $_SESSION["message"] = "Mauvaise extension ou taille de fichier dépassée";
     }
+    else $_SESSION["message"] = "Vous devez soumettre le formulaire !";
+
+    break;
 
     header("Location:index.php");
 
